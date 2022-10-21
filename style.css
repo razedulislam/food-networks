@@ -3,18 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+span{
+    color: rgb(248, 37, 0);
+}
+.navbar{
+    width: 100%;
+   margin-bottom: 110px;
+}
 .navbar-items{
     display: flex;
     background-color: rgb(248, 250, 248);
     color: black;
     padding: 20px;
     justify-content: space-between;
-    position: sticky;
+    position:fixed;
+    width: 100%;
     box-shadow: rgba(240, 7, 7, 0.507) 1.95px 1.95px 2.6px;
 }
 .navbar-left{
     font-size: 25px;
-
 }
 .navbar-right{
     float: right;
@@ -29,4 +45,39 @@ a{
     background-image: linear-gradient(#dfca0d,rgb(224, 67, 20));
     color: aliceblue;
     padding: 10px 20px;
+}
+
+.head-section::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.head-section{
+    display: flex;
+   
+}
+.head-food{
+    width: 50%;
+}
+.head-des-left{
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 10px;
+}
+#head-food-h1{
+    margin-bottom: 45px;
+}
+#head-food1-h1{
+    margin-bottom: 40px;
+}
+.order-button{
+    background-color: tomato;
+    color: aliceblue;
+    margin-left: 220px;
+    width: 160px;
+    margin-top: 20px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 7px;
+    border: tomato;
 }
