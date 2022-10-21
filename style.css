@@ -154,3 +154,19 @@ margin: 0 200px;
     padding-bottom: 40px;
 }
 
+.footer-area{
+    background-color: rgb(37, 37, 37);
+    color: rgb(229, 235, 240);
+    text-align: center;
+    padding: 70px;
+}
+.footer-area h1{
+    padding-bottom: 35px;
+}
+.footer-area h3{
+    padding-bottom: 60px;
+    opacity: .9;
+}
+.footer-area h5{
+    opacity: .9;
+}
