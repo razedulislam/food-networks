@@ -82,9 +82,10 @@ a{
 }
 
 .contact{
-    background-color: aliceblue;
+    background-color: rgb(255,237,249);
     display: flex;
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 .contact-img, .contact-us{
     width: 50%;
@@ -105,3 +106,51 @@ a{
     margin-left: -1px;
     margin-top: -10px;
 }
+
+.cards-container{
+margin-top: 100px;
+text-align: center;
+}
+.cards-head h1{
+    margin-bottom: 40px;
+}
+.cards-head p{
+font-size: 30px;
+margin: 0 200px;
+}
+.food-cards{
+   
+    color: black;
+    margin: 100px;
+    display: flex;
+    
+}
+.card{
+    width: 33%;
+    border: 5px solid rgb(247, 243, 243);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.card-image1{
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  
+}
+
+.card-hrad3{
+    padding: 15px;
+    margin-left: 20px;
+    
+    
+}
+
+.card p{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+}
+
