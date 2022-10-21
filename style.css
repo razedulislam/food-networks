@@ -47,11 +47,7 @@ a{
     padding: 10px 20px;
 }
 
-.head-section::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 .head-section{
     display: flex;
    
@@ -70,14 +66,42 @@ a{
 #head-food1-h1{
     margin-bottom: 40px;
 }
-.order-button{
-    background-color: tomato;
+.order-button, .contact-btn{
+    background-image: linear-gradient(red,rgb(236, 119, 99));
     color: aliceblue;
     margin-left: 220px;
-    width: 160px;
+    width: 170px;
     margin-top: 20px;
-    height: 60px;
+    height: 80px;
     font-size: 30px;
-    border-radius: 7px;
+    border-radius: 20px;
     border: tomato;
+}
+.head-image{
+    margin-left: 40px;
+}
+
+.contact{
+    background-color: aliceblue;
+    display: flex;
+    padding-top: 100px;
+}
+.contact-img, .contact-us{
+    width: 50%;
+}
+#contact-head3{
+    font-weight: 170;
+}
+.contact-us{
+    padding: 40px;
+    margin-right: 80px;
+    text-align: justify;
+}
+.contact-img{
+    margin-left: 100px;
+}
+
+.contact-btn1{
+    margin-left: -1px;
+    margin-top: -10px;
 }
